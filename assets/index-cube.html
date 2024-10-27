@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border-radius: 10px;
+
+
+        }
+        body{
+            background-image: url(../WallpaperGram.IR_1553786702_57964.jpg);
+        }
+        .box {
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            /* border: 1px solid black; */
+            position: relative;
+            /* transform: rotate3d(45, -156, 1, -52deg); */
+            transform-style: preserve-3d;
+            animation: box 10s linear infinite;
+            transition: 1s;
+            >h1{
+            font-size: 150px;
+            color: blue;
+            text-shadow: 1px 1px 10px black;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            animation: text 10s linear infinite;
+        }
+           
+            
+            &:hover {
+                
+    >div{
+        opacity: 0.6;
+        
+        
+     &:nth-of-type(1) {
+         transform: translateZ(300px);
+     }
+
+     &:nth-of-type(2) {
+         transform: translateZ(-300px);
+     }
+
+     &:nth-of-type(3) {
+         transform: rotatey(-90deg) translateZ(-300px);
+     }
+
+     &:nth-of-type(4) {
+         transform: rotatey(90deg) translateZ(-300px);
+     }
+
+     &:nth-of-type(5) {
+         transform: rotateX(90deg) translateY(-200px) translateZ(100px);
+     }
+
+     &:nth-of-type(6) {
+         transform: rotateX(-90deg) translateY(200px) translateZ(100px);
+     }
+    }
+ }
+
+            >div {
+                width: inherit;
+                height: inherit;
+                /* border: 1px solid black; */
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: 1s;
+                box-shadow: 0 0 5px 10px black;
+
+                /* opacity: 0.5; */
+
+                &:nth-of-type(1) {
+                    transform: translateZ(200px);
+                    /* background-color: black; */
+                    display: grid;
+                    /* justify-content: center;
+                        align-items: center; */
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    >div {
+                        border: 1px solid rgb(22, 27, 15);
+                        &:nth-of-type(1) {
+
+                            background-color: yellow;
+                        }
+
+                        &:nth-of-type(2) {
+                            background-color: yellow;
+                        }
+
+                        &:nth-of-type(3) {
+                            background-color: yellow;
+                        }
+
+                        &:nth-of-type(4) {
+                            background-color: yellow;
+                        }
+
+                        &:nth-of-type(5) {
+                            background-color: yellow;
+                        }
+
+                        &:nth-of-type(6) {
+                            background-color: yellow;
+                        }
+
+                        &:nth-of-type(7) {
+                            background-color: yellow;
+                        }
+
+                        &:nth-of-type(8) {
+                            background-color: yellow;
+                        }
+
+                        &:nth-of-type(9) {
+                            background-color: yellow;
+                        }
+
+                    }
+
+
+                }
+
+                &:nth-of-type(2) {
+                    transform: translateZ(-200px);
+                    /* background-color: blue; */
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+
+                    >div {
+                        border: 1px solid rgb(22, 27, 15);
+
+                        &:nth-of-type(1) {
+
+                            background-color: blue;
+                        }
+
+                        &:nth-of-type(2) {
+                            background-color: blue;
+                        }
+
+                        &:nth-of-type(3) {
+                            background-color: blue;
+                        }
+
+                        &:nth-of-type(4) {
+                            background-color: blue;
+                        }
+
+                        &:nth-of-type(5) {
+                            background-color: blue;
+                        }
+
+                        &:nth-of-type(6) {
+                            background-color: blue;
+                        }
+
+                        &:nth-of-type(7) {
+                            background-color: blue;
+                        }
+
+                        &:nth-of-type(8) {
+                            background-color: blue;
+                        }
+
+                        &:nth-of-type(9) {
+                            background-color: blue;
+                        }
+
+                    }
+                }
+
+                &:nth-of-type(3) {
+                    transform: rotatey(-90deg) translateZ(-200px);
+                    /* background-color: aqua; */
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+
+                    >div {
+                        border: 1px solid rgb(22, 27, 15);
+
+                        &:nth-of-type(1) {
+
+                            background-color: green;
+                        }
+
+                        &:nth-of-type(2) {
+                            background-color: green;
+                        }
+
+                        &:nth-of-type(3) {
+                            background-color: green;
+                        }
+
+                        &:nth-of-type(4) {
+                            background-color: green;
+                        }
+
+                        &:nth-of-type(5) {
+                            background-color: green;
+                        }
+
+                        &:nth-of-type(6) {
+                            background-color: green;
+                        }
+
+                        &:nth-of-type(7) {
+                            background-color: green;
+                        }
+
+                        &:nth-of-type(8) {
+                            background-color: green;
+                        }
+
+                        &:nth-of-type(9) {
+                            background-color: green;
+                        }
+
+                    }
+                }
+
+                &:nth-of-type(4) {
+                    transform: rotatey(90deg) translateZ(-200px);
+                    /* background-color: yellow; */
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+
+                    >div {
+                        border: 1px solid rgb(22, 27, 15);
+
+                        &:nth-of-type(1) {
+
+                            background-color: red;
+                        }
+
+                        &:nth-of-type(2) {
+                            background-color: red;
+                        }
+
+                        &:nth-of-type(3) {
+                            background-color: red;
+                        }
+
+                        &:nth-of-type(4) {
+                            background-color: red;
+                        }
+
+                        &:nth-of-type(5) {
+                            background-color: red;
+                        }
+
+                        &:nth-of-type(6) {
+                            background-color: red;
+                        }
+
+                        &:nth-of-type(7) {
+                            background-color: red;
+                        }
+
+                        &:nth-of-type(8) {
+                            background-color: red;
+                        }
+
+                        &:nth-of-type(9) {
+                            background-color: red;
+                        }
+
+                    }
+
+                }
+
+                &:nth-of-type(5) {
+                    transform-origin: top;
+                    transform: rotateX(90deg) translateY(-200px);
+                    /* background-color: chocolate; */
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+
+                    >div {
+                        border: 1px solid rgb(22, 27, 15);
+
+                        &:nth-of-type(1) {
+
+                            background-color: pink;
+                        }
+
+                        &:nth-of-type(2) {
+                            background-color: pink;
+                        }
+
+                        &:nth-of-type(3) {
+                            background-color: pink;
+                        }
+
+                        &:nth-of-type(4) {
+                            background-color: pink;
+                        }
+
+                        &:nth-of-type(5) {
+                            background-color: pink;
+                        }
+
+                        &:nth-of-type(6) {
+                            background-color: pink;
+                        }
+
+                        &:nth-of-type(7) {
+                            background-color: pink;
+                        }
+
+                        &:nth-of-type(8) {
+                            background-color: pink;
+                        }
+
+                        &:nth-of-type(9) {
+                            background-color: pink;
+                        }
+
+                    }
+                }
+
+                &:nth-of-type(6) {
+                    transform-origin: bottom;
+                    transform: rotateX(-90deg) translateY(200px);
+                    /* background-color: rgb(134, 19, 119); */
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+
+                    >div {
+                        border: 1px solid rgb(22, 27, 15);
+
+                        &:nth-of-type(1) {
+
+                            background-color: rgb(149, 196, 155);
+                        }
+
+                        &:nth-of-type(2) {
+                            background-color: rgb(149, 196, 155);
+                        }
+
+                        &:nth-of-type(3) {
+                            background-color: rgb(149, 196, 155);
+                        }
+
+                        &:nth-of-type(4) {
+                            background-color: rgb(149, 196, 155);
+                        }
+
+                        &:nth-of-type(5) {
+                            background-color: rgb(149, 196, 155);
+                        }
+
+                        &:nth-of-type(6) {
+                            background-color: rgb(149, 196, 155);
+                        }
+
+                        &:nth-of-type(7) {
+                            background-color: rgb(149, 196, 155);
+                        }
+
+                        &:nth-of-type(8) {
+                            background-color: rgb(149, 196, 155);
+                        }
+
+                        &:nth-of-type(9) {
+                            background-color: rgb(149, 196, 155);
+                        }
+
+                    }
+                }
+
+            }
+        }
+      
+    
+
+        @keyframes box {
+            to {
+                transform: rotate3d(1, 1, 1, 360deg)
+            }
+        }
+        @keyframes text{
+            to{
+                transform: rotate3d(1,1,1,-360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>
+            cube
+        </h1>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>
